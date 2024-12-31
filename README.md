@@ -13,3 +13,25 @@ Let me know if you have any suggestions on things to improve, I'm open to discus
 * The `Distribution of values` section is a fixed width and cannot be widened to match the available space
 * The height of the Chronology graph is still not responsive
 * The image under `Wiki` is usually only 300px, which does not utilize the full width on desktop
+
+# Screenshots at different resolutions
+
+## Desktop (1080p)
+
+### Before
+
+![desktop screenshot before](/screenshots/1080-before.png)
+
+### After
+
+![desktop screenshot after](/screenshots/1080-after.png)
+
+## iPhone 12 Pro Max
+
+### Before
+
+![iphone 12 screenshot before](/screenshots/iphone-12-before.png)
+
+### After
+
+![iphone 12 screenshot after](/screenshots/iphone-12-after.png)
