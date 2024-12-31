@@ -1,5 +1,5 @@
 # better-osm-taginfo
-Userscript adding UI improvments for taginfo.openstreetmap.org
+Userscript adding UI improvments for [taginfo.openstreetmap.org](https://taginfo.openstreetmap.org/)
 
 Currently this is limited to adding a responsive design to the `/keys` page, but this may expand to other areas in the future.
 
