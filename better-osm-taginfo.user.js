@@ -28,7 +28,7 @@ const applyFlexLayout = () => {
   });
 }
 
-if (isDesktop.match) {
+if (isDesktop.matches) {
   applyGridLayout();
 }
 
