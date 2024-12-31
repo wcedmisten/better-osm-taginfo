@@ -2,6 +2,7 @@
 Userscript adding UI improvments for [taginfo.openstreetmap.org](https://taginfo.openstreetmap.org/)
 
 Currently this is limited to adding a responsive design to the `/keys` page, but this may expand to other areas in the future.
+The responsive design uses a single breakpoint at 768px, but this may also be improved later.
 
 Let me know if you have any suggestions on things to improve, I'm open to discussion!
 
@@ -10,7 +11,7 @@ Let me know if you have any suggestions on things to improve, I'm open to discus
 
 ## Current Limitations
 
-* The `Distribution of values` section is a fixed width and cannot be widened to match the available space
+* The `Distribution of values` section is a fixed size and doesn't expand to fill the available space
 * The height of the Chronology graph is still not responsive
 * The image under `Wiki` is usually only 300px, which does not utilize the full width on desktop
 
