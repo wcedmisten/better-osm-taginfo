@@ -2,12 +2,13 @@
 // @name        Better Taginfo
 // @namespace   https://github.com/wcedmisten/better-osm-taginfo
 // @match       https://taginfo.openstreetmap.org/keys/*
+// @match       https://taginfo.openstreetmap.org/relations/*
+// @match       https://taginfo.openstreetmap.org/tags/*
 // @grant       none
 // @version     0.1
 // @author      wcedmisten
 // @description Userscript adding UI improvments for taginfo.openstreetmap.org
 // ==/UserScript==
-
 const isDesktop = window.matchMedia('(width >= 768px)');
 
 const applyGridLayout = () => {
@@ -24,8 +25,9 @@ const applyGridLayout = () => {
   document.getElementsByClassName("overview-item-wiki")[0].style["align-items"] = "center";
 
   const languagesDiv = document.querySelector("div.overview-item:nth-child(4) > div:nth-child(3)");
-  languagesDiv.style["max-width"] = "500px"
-
+  if (!!languagesDiv) {
+    languagesDiv.style["max-width"] = "500px";
+  }
 
   document.getElementsByClassName("overview-item-wiki-image")[0].style.width = "100%";
 }
@@ -44,7 +46,9 @@ const applyFlexLayout = () => {
   document.getElementsByClassName("overview-item-wiki")[0].style["align-items"] = "unset";
 
   const languagesDiv = document.querySelector("div.overview-item:nth-child(4) > div:nth-child(3)");
-  languagesDiv.style["max-width"] = "unset"
+  if (!!languagesDiv) {
+    languagesDiv.style["max-width"] = "unset";
+  }
 
 
   document.getElementsByClassName("overview-item-wiki-image")[0].style.width = "unset";
